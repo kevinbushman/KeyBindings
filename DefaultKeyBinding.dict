@@ -1,3 +1,15 @@
+/* ~/Library/KeyBindings/DefaultKeyBinding.Dict
+This remapping does the following in most Mac apps including Chrome 
+(some apps do their own key handling):
+
+Home and End will go to start and end of line
+Shift + Home and Shift + End will select to start and end of line
+Ctrl + Home and Ctrl + End will go to start and end of document
+Shift + Ctrl + Home and Shift + Ctrl + End will select to start and end of document
+
+Note that you will need to reboot after creating this file for it to take effect.
+
+*/
 {
   "\UF729"  = moveToBeginningOfParagraph:; // home
   "\UF72B"  = moveToEndOfParagraph:; // end
